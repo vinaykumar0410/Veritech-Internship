@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.container{
+    /* background-color: aqua; */
+    margin: 20px 100px;
+}
+
+/* .btn-company-name{
+    background-color: rgb(194, 98, 250);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 30px;
+} */
+
+.intro-para{
+    text-align: center;
+    margin:25px 50px;
+    line-height: 25px;
+}
+
+.company-title{
+    color: black;
+    font-weight: 600;
+}
+
+.dotted-hr{
+    height: 1px;
+    color: rgb(149, 78, 190);
+    border-style: dashed;
+    width: 50%;
+    margin: auto;
+}
+
+.team-intro{
+    text-align: center;
+    margin: 40px auto;
+}
+
+
+.btn-company-name, .btn-company-management, .btn-company-development, .btn-company-sales{
+    background-color: rgb(194, 98, 250);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    display: block;
+    margin: 40px auto;
+    padding: 10px 20px;
+}
+
+.card{
+    text-align: center;
+}
+
+.management-section, .development-section, .sales-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.person-name{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.person-role{
+    color: rgb(194, 98, 250);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media screen and (max-width:640px) {
+    .container{
+        margin: 20px;
+    }
+    .intro-para{
+        margin:25px 5px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+}
